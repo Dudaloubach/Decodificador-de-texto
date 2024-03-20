@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html" title="codificador de texto"></a>
+        <img  class="LogoAlura" src="imagem/Logo.png" alt="Logo Alura">
+        </h1>
+    </header>
+    <main>
+      <section>
+         <textarea class="textarea" id="textarea-texto"  cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+         <div class="aviso">
+          <h6>Apenas letras minúsculas e sem acento.</h6>
+         </div>
+
+         <div class="botoes">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>  
+         </div>
+        </section>  
+
+        <section>
+            <textarea class="mensagem" id="output-text" cols="20" rows="10"></textarea>
+            <button class="btn-copiar" id="copy" ="btnCopiar">Copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h6>Programa One</h6>
+        <p>Desenvolvido por Eduarda Loubach</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html> 
